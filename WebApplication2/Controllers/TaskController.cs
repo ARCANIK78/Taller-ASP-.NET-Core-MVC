@@ -36,7 +36,7 @@ namespace WebApplication2.Controllers
                 tasks.Add(task);
                 return RedirectToAction(nameof(Index));
             }
-            return View(tasks);
+            return View(task);
         }
     }
     

@@ -30,3 +30,5 @@ C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplicat
 C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.dll
 C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.pdb
 C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csproj.CopyComplete
+C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\Razor\Views\Task\Index.g.cshtml.cs
+C:\Users\DELL\Documents\Tareas de trabajos y cursos\ASP.net core MVC\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\Razor\Views\Task\Create.g.cshtml.cs

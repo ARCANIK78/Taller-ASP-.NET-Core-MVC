@@ -1,0 +1,18 @@
+﻿@model WebApplication2.Models.Task
+<h1>Create New Task</h1>
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label asp-for="Descripcion"></label>
+        <textarea asp-for="Descripcion"></textarea>
+    </div>
+    <div>
+        <label asp-for="isCompleted"></label>
+        <input type="checkbox" asp-for="isCompleted" /> 
+    </div>
+    <button type="submit">Create</button>
+</form>
+<a href="@Url.Action("Index")">back to list</a>

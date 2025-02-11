@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebApplication2.Models.Task>
+
+<h1> Task.Title</h1>
+<a href="@Url.Action("Create")">Create New Task</a>
+<ul>
+    @foreach(var task in Model)
+    {
+        <li>
+            @Html.ActionLink(task.Title, "Details", new { id=task.Id}) - @task.Descripcion
+            @if(task.isCompleted)
+            {
+                <span>(Conpleted)</span>
+            }
+        </li>
+    }
+</ul>
